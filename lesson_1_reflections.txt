@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It quickly drew attention to areas of the file that had been changed which
+    meant there was less text to review to find the issue.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Earlier versions of a files throughout a project can be reviewed to see if
+    any mistakes are made repeatedly.  Old versions of a file can be reviewed
+    to see the decision tree that led to a certain outcome.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Commits that are done automatically, while they will ensure that the file
+    does get saved periodically, will likely not occur at logical points in the
+    development process and so will not be of much use.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    A general file is rarely linked to another, so version control systems
+    designed for general files would not need to store commits of multiple files
+    together.  This is not true in coding as multiple files are dependent on each
+    other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can review all the changes made to your repository using git log and then
+    using git diff you can compare one version of that repository to another to
+    see what has changed.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Changes can be made that may have adverse effects on the code without fear
+    of ruining the project because the code can always be restored to a previously
+    known working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Developing a website using version control on a repository consisting of the
+    HTML, CSS, and Javascript files.
