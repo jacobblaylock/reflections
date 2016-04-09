@@ -19,6 +19,9 @@ change?
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+    Branches should be used when multiple versions of the code are needed. They
+    will allow you to make big changes in the code while maintaining a working
+    version.
 
 How do the diagrams help you visualize the branch structure?
 
