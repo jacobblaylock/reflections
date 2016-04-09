@@ -12,6 +12,10 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+    A single file or subset of files can be committed individually rather than
+    always having to commit the entire project at a time.  This allows commits
+    to be done at a very granular level comprising of only the files that were
+    effected by a specific logical change.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
